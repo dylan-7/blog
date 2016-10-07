@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e2b177;
+  background: #048357;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2485,6 +2485,11 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .menu .menu-item a:hover i {
   animation: menu-turn 0.5s linear 1;
+}
+.emotify-appear,
+.emotify-re-engage-link-row-wrapper,
+.emotify-powered-by {
+  display: none !important;
 }
 @-moz-keyframes avatar-breath {
   from {
