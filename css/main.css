@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1a84e;
+  background: #fbb9ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2467,7 +2467,7 @@ html::-webkit-scrollbar-thumb:hover {
 .search-article a:hover {
   color: #999;
 }
-.search-article:before {
+.search-article::before {
   content: '站内搜索';
   position: absolute;
   left: 8px;
