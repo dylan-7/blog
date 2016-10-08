@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4416;
+  background: #4d1be5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2498,6 +2498,9 @@ html::-webkit-scrollbar-thumb:hover {
   position: absolute;
   right: 0;
   top: 0;
+}
+#emotify-container #emotify-widget-frame {
+  bottom: 4px;
 }
 @-moz-keyframes avatar-breath {
   from {
