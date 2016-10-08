@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7cff87;
+  background: #6c8ba1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2486,10 +2486,18 @@ html::-webkit-scrollbar-thumb:hover {
 .menu .menu-item a:hover i {
   animation: menu-turn 0.5s linear 1;
 }
-.emotify-appear,
-.emotify-re-engage-link-row-wrapper,
-.emotify-powered-by {
-  display: none !important;
+#emotify-container {
+  height: 136px !important;
+  overflow: hidden;
+}
+#emotify-container .emotify-mask {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 @-moz-keyframes avatar-breath {
   from {
