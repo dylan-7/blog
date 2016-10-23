@@ -3,6 +3,5 @@
 */
 
 $(function() {
-  $("#api-feed-container").remove();
   $("#open-emotify-feed").remove();
 })

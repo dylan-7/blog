@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff2d4;
+  background: #ffcb03;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2489,17 +2489,17 @@ html::-webkit-scrollbar-thumb:hover {
   animation: menu-turn 0.5s linear 1;
 }
 #emotify-container {
-  height: 136px !important;
+  height: 140px !important;
   overflow: hidden;
 }
 #emotify-container:after {
   content: '';
   width: 120px;
-  height: 40px;
-  background: #fff;
+  height: 26px;
+  background: #e8e8e8;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 18px;
 }
 #emotify-container #emotify-widget-frame {
   bottom: 4px;
