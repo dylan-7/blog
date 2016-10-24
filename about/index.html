@@ -82,49 +82,37 @@
 
 
 
-<meta name="description" content="hi man. What’s up?
+<meta name="description" content="#emotify-container {display: none !important;}
+
+
+hi man. What’s up?
 
 
 ：
-：shenzhen
-
-
-  var elt_emotify = document.querySelector(&quot;#emotify-container&quot;);
-
-  if(elt_emotify) {
-    elt_emotify.parentNode.removeChild(elt_emotify);
-  }">
+：shenzhen">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于我">
 <meta property="og:url" content="http://blog.leequu.com/about/index.html">
 <meta property="og:site_name" content="Dylan's blog">
-<meta property="og:description" content="hi man. What’s up?
+<meta property="og:description" content="#emotify-container {display: none !important;}
+
+
+hi man. What’s up?
 
 
 ：
-：shenzhen
-
-
-  var elt_emotify = document.querySelector(&quot;#emotify-container&quot;);
-
-  if(elt_emotify) {
-    elt_emotify.parentNode.removeChild(elt_emotify);
-  }">
-<meta property="og:updated_time" content="2016-10-23T18:19:28.134Z">
+：shenzhen">
+<meta property="og:updated_time" content="2016-10-24T23:25:52.443Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于我">
-<meta name="twitter:description" content="hi man. What’s up?
+<meta name="twitter:description" content="#emotify-container {display: none !important;}
+
+
+hi man. What’s up?
 
 
 ：
-：shenzhen
-
-
-  var elt_emotify = document.querySelector(&quot;#emotify-container&quot;);
-
-  if(elt_emotify) {
-    elt_emotify.parentNode.removeChild(elt_emotify);
-  }">
+：shenzhen">
 
 
 
@@ -347,19 +335,16 @@
   <div id="posts" class="posts-expand">
     
     
-      <p class="greeting-msg">hi man. What’s up?</p>
+      <style>
+  #emotify-container {display: none !important;}
+</style>
+
+<p class="greeting-msg">hi man. What’s up?</p>
 
 <ul>
 <li><i class="fa fa-envelope-o"></i>：</li>
 <li><i class="fa fa-map-marker"></i>：shenzhen</li>
 </ul>
-<script>
-  var elt_emotify = document.querySelector("#emotify-container");
-
-  if(elt_emotify) {
-    elt_emotify.parentNode.removeChild(elt_emotify);
-  }
-</script>
 
     
   </div>
@@ -367,7 +352,7 @@
 
           </div>
 
-          <div id="emotify-container"></div>
+          <!-- <div id="emotify-container"></div> -->
 
           
 
@@ -651,13 +636,15 @@
 
 
   <script>
-      var el = document.createElement('script');
-      var url = window.location.href;
-      var head = document.getElementsByTagName("head")[0];
-      el.src = '//www.goemotify.com/api/articles/8f6b8075abd7471dcb55bb75841707315.js?url='+url;
-      el.type = 'text/javascript';
-      head.appendChild(el);
+      // var el = document.createElement('script');
+      // var url = window.location.href;
+      // var head = document.getElementsByTagName("head")[0];
+      // el.src = '//www.goemotify.com/api/articles/8f6b8075abd7471dcb55bb75841707315.js?url='+url;
+      // el.type = 'text/javascript';
+      // head.appendChild(el);
   </script>
 
+  <script src="/js/src/partial.js"></script>
+  <script src="/js/src/love.js"></script>
 </body>
 </html>
