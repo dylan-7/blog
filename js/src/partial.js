@@ -9,4 +9,5 @@ $(function() {
     }
   }, 200);
 
+  $("#greeting-msg").lettering();
 })
