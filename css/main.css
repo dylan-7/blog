@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #37dbdf;
+  background: #ff3bff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2510,9 +2510,6 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .greeting-msg {
   mix-blend-mode: multiply;
-}
-.greeting-msg span {
-  color: fff;
 }
 @-moz-keyframes avatar-breath {
   from {
