@@ -11,6 +11,7 @@ $(function() {
 
   $("#greeting-msg").lettering();
 
-  $("#ds-reset .ds-duoshuo").addClass("duoshuo-news");
-
+  if($("[title='知乎']")) {
+    $("[title='知乎']").find('i').addClass('iconfont icon-zhihu');
+  }
 })

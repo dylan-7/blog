@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff3bff;
+  background: #fff514;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2425,21 +2425,26 @@ hr {
     text-align: center;
   }
 }
-html::-webkit-scrollbar {
-  width: 13px;
-  height: 8px;
-  background-color: #fff;
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
-  border-left: 1px solid #ececec;
+  overflow: hidden;
 }
-html::-webkit-scrollbar-thumb {
-  background-color: #cfcfcf;
-  background-size: 100%;
+::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+  min-height: 25px;
+  min-width: 25px;
+  border: 1px solid #e0e0e0;
   border-radius: 50px;
-  position: relative;
 }
-html::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background-color: #b8b8b8;
+}
+::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+  border: 1px solid #efefef;
+  border-radius: 50px;
 }
 .footer-wrap {
   min-height: auto;
@@ -2487,6 +2492,26 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .menu .menu-item a:hover i {
   animation: menu-turn 0.5s linear 1;
+}
+.iconfont {
+  font-size: 14px !important;
+}
+.page-post-detail .comments {
+  padding-top: 20px;
+}
+.comments {
+  margin-top: 40px;
+}
+#ds-thread #ds-reset #ds-bubble {
+  border-radius: 3px !important;
+  border: 1px solid rgba(0,0,0,0.2) !important;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2) !important;
+}
+.emoji-inner {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 #emotify-container {
   height: 140px !important;
