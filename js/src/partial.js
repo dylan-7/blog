@@ -26,6 +26,7 @@ $(function() {
                 line-height:4em;
                 background:url("http://7xwkxy.com1.z0.glb.clouddn.com/ufo-3.png") no-repeat left center;
                 background-size:10%;`);
+      console.log(`%c` + `http://www.dylan100.com`,`color:gray;`);
     }
   } catch(e) {}
 })
